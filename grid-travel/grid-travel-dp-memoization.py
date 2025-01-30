@@ -1,9 +1,10 @@
 def grid_travel(m, n, memo = {}):
+    key = f"{min(m, n)}, {max(m, n)}"
+    if key in memo:
+        return memo[key]
     if m == 1 or n == 1:
         return 1
-    key = f"{min(m, n)}, {max(m, n)}"
-    if key not in memo:
-        memo[key] = grid_travel(m - 1, n) + grid_travel(m, n - 1)
+    memo[key] = grid_travel(m - 1, n) + grid_travel(m, n - 1)
     return memo[key]
 
 # Complexity Analysis:
