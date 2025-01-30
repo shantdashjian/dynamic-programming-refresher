@@ -8,7 +8,7 @@ def grid_travel(m, n, memo = {}):
     return memo[key]
 
 # Complexity Analysis:
-# O(m + n) time | O(m + n) space
+# O(m * n) time | O(m * n) space
 
 # Test Cases:
 print(grid_travel(1, 1))
