@@ -1,6 +1,4 @@
-def fib(n, memo = {}):
-    if n <= 2:
-        return 1
+def fib(n, memo = {1: 1, 2: 1}):
     if n not in memo:
         memo[n] = fib(n - 1, memo) + fib(n - 2, memo)
     return memo[n]
