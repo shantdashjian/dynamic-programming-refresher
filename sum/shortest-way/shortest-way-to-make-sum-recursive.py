@@ -14,11 +14,12 @@ def shortest_way_to_make_sum(sum, nums):
     return way
 
 # Complexity Analysis:
-# O(n ^ m * m) time | O(m) space
+# O(n ^ m * m) time | O(m ^ 2) space
 
 # Test Cases:
 print(shortest_way_to_make_sum(6, [1, 5]))
 print(shortest_way_to_make_sum(7, [5, 3, 4, 7]))
 print(shortest_way_to_make_sum(2, [5, 3, 4, 7]))
+print(shortest_way_to_make_sum(100, [1, 2, 5, 25]))
 print(shortest_way_to_make_sum(300, [7, 14]))
     

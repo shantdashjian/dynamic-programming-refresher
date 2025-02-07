@@ -2,7 +2,7 @@ def shortest_way_to_make_sum(sum, nums, memo = None):
     if memo == None:
         memo = {}
     if sum in memo:
-        return memo[sum]
+        return memo[sum]    
     if sum == 0:
         return []
     if sum < 0:
@@ -25,4 +25,5 @@ def shortest_way_to_make_sum(sum, nums, memo = None):
 print(shortest_way_to_make_sum(6, [1, 5]))
 print(shortest_way_to_make_sum(7, [5, 3, 4, 7]))
 print(shortest_way_to_make_sum(2, [5, 3, 4, 7]))
+print(shortest_way_to_make_sum(100, [1, 2, 5, 25]))
 print(shortest_way_to_make_sum(300, [7, 14]))
