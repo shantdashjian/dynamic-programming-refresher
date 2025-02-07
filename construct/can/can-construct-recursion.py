@@ -10,7 +10,7 @@ def can_construct(s, word_list):
             result = result or can_construct(s[len(word) :], word_list)
     return result
 
-# O(m ^ n * m) time | O(m * m) space
+# O((n ^ m) * m) time | O(m * m) space
 
 print(can_construct("ab", ["a", "b"])) 
 print(can_construct("applepenapple", ["apple","pen"])) 
