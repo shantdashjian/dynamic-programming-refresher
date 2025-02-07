@@ -9,4 +9,6 @@ A number of coding interview problems solved using recursion and dynamic program
     1. Can you make sum using the following number categories?
     2. What's one way to make the sum using these number categories?
     3. What's the shortest way to make the sum using these number categories?
+4. Construct:
+    1. Can you construct this target string by concatenating elements from this array of strings?
 
