@@ -8,4 +8,5 @@ A number of coding interview problems solved using recursion and dynamic program
 3. Sum:
     1. Can you make sum using the following number categories?
     2. What's one way to make the sum using these number categories?
+    3. What's the shortest way to make the sum using these number categories?
 
