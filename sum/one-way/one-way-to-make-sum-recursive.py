@@ -10,7 +10,7 @@ def one_way_to_make_sum(sum, nums):
     return None
 
 # Complexity Analysis:
-# O(n ^ target) time | O(target) space
+# O(n ^ m * m) time | O(m) space
 
 # Test Cases:
 print(one_way_to_make_sum(6, [1, 5]))
