@@ -5,5 +5,5 @@ A number of coding interview problems solved using recursion and dynamic program
 ## Questions:
 1. What's the nth Fibonacci number?
 2. How many ways to travel in a grid of m x n from start to end?
-3. Can you make change using the following coin categories?
+3. Can you make sum using the following number categories?
 
