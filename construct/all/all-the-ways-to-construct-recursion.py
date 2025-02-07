@@ -26,3 +26,13 @@ print(all_the_ways_to_construct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", [
     "eeeeeee", 
     "eeeeeeee", 
     ])) 
+print(all_the_ways_to_construct("eeeeeeeeeeee", [
+    "e", 
+    "ee", 
+    "eee", 
+    "eeee", 
+    "eeeee", 
+    "eeeeee", 
+    "eeeeeee", 
+    "eeeeeeee", 
+    ])) 
