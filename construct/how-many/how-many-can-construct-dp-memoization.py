@@ -3,10 +3,10 @@ def how_many_can_construct(s, word_list, memo = None):
         memo = {}
     if s in memo:
         return memo[s]
+    if len(s) == 0:
+        return 1
     result = 0
     for word in word_list:
-        if word == s:
-            result += 1
         if word == s[: len(word)]:
             result = result + how_many_can_construct(s[len(word) :], word_list, memo)
     memo[s] = result
