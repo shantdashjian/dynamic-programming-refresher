@@ -14,7 +14,7 @@ def all_the_ways_to_construct(s, word_list, memo = None):
     memo[s] = all_ways
     return all_ways
 
-# O((n ^ m) * m) time | O(m * m) space
+# O((n ^ m) * m) time | O(n ^ m) space
 
 print(all_the_ways_to_construct("ab", ["a", "b"])) 
 print(all_the_ways_to_construct("ab", ["a", "b", "ab"])) 
