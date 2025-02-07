@@ -14,4 +14,5 @@ A number of coding interview problems solved using recursion and dynamic program
 4. Construct:
     1. Can you construct this target string by concatenating elements from this array of strings?
     2. How many way can you construct this target string by concatenating elements from this array of strings?
+    3. What are all the ways can you construct this target string by concatenating elements from this array of strings?
 
