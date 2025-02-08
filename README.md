@@ -1,12 +1,17 @@
-# Dynamic Programming
+# Dynamic Programming Refresher
 
 A number of coding interview problems solved using dynamic programming.
 
 ## DP Styles:
 1. Memoization = Recursion + Dictionary
-    - Draw a tree
+    - Draw a tree:
+        1. The nodes are the inputs.
+        2. The edges are the transtions, reductions, or shirnking of the problem.
+        3. The leaves are the base case.
 2. Tabulation = Iteration + List
-    - Draw a table
+    - Draw a table:
+        1. The size of the table is the size of the inputs + 1.
+        2. For an input of 3 and 3, have a 4 x 4 table/array. 
 
 ## Types of Questions:
 1. Is there a way?
