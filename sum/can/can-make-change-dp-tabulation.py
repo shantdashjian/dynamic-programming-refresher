@@ -1,10 +1,11 @@
 def can_make_change(target, coins):
     table = [False for i in range(target + 1)]
     table[0] = True
-    for i in range(target + 1):
-        for coin in coins:
-            if table[i] and i + coin <= target:
-                table[i + coin] = True
+    for i in range(len(table)):
+        if table[i] is True:
+            for coin in coins:
+                if i + coin < len(table):
+                    table[i + coin] = True
     return table[target]
 
 # Complexity Analysis:
