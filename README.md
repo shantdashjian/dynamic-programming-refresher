@@ -1,6 +1,6 @@
 # Dynamic Programming Refresher
 
-A number of coding interview problems solved using dynamic programming.
+A number of coding interview problems solved using dynamic programming. It includes my solutions in Python to the questions in the fantastic freeCodeCamp course by Alvin Zablan. Check it out [here](https://youtu.be/oBt53YbR9Kk). 
 
 ## DP Styles:
 1. Memoization = Recursion (Algorithm) + Dictionary (Data Structure)
